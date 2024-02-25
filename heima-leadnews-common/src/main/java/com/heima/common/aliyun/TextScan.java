@@ -34,8 +34,8 @@ public class TextScan {
           Config对象存放 AccessKeyId、AccessKeySecret、endpoint等配置
          */
         com.aliyun.teaopenapi.models.Config config = new com.aliyun.teaopenapi.models.Config()
-            .setAccessKeyId("LTAI5tMKANbFiGneeLpogv6g")
-            .setAccessKeySecret("EZMhFkOj9m1dabLXVkvoNOb1Uf8UVp");
+            .setAccessKeyId("")
+            .setAccessKeySecret("");
         // 访问的域名
         config.endpoint = "imageaudit.cn-shanghai.aliyuncs.com";
         return new com.aliyun.imageaudit20191230.Client(config);

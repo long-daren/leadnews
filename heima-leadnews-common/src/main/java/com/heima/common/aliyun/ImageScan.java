@@ -30,8 +30,8 @@ public class ImageScan {
         // 如果您使用的是RAM用户的AccessKey，还需要为子账号授予权限AliyunVIAPIFullAccess，请参考https://help.aliyun.com/document_detail/145025.html
         // 从环境变量读取配置的AccessKey ID和AccessKey Secret。运行代码示例前必须先配置环境变量。
         com.aliyun.teaopenapi.models.Config config = new com.aliyun.teaopenapi.models.Config()
-            .setAccessKeyId("LTAI5tMKANbFiGneeLpogv6g")
-            .setAccessKeySecret("EZMhFkOj9m1dabLXVkvoNOb1Uf8UVp");
+            .setAccessKeyId("")
+            .setAccessKeySecret("");
         // 访问的域名
         config.endpoint = "imageaudit.cn-shanghai.aliyuncs.com";
         com.aliyun.imageaudit20191230.Client client = new com.aliyun.imageaudit20191230.Client(config);
